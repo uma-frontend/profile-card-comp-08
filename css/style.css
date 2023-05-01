@@ -1,0 +1,37 @@
+/*Font face*/
+@font-face {
+   font-family: "Kumbh Sans";
+   src: url("../fonts/KumbhSans-Bold.woff2") format("woff2"),
+       url("../fonts/KumbhSans-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Kumbh Sans";
+   src: url("../fonts/KumbhSans-Regular.woff2") format("woff2"),
+       url("../fonts/KumbhSans-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+/*Global styles*/
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+/*Body*/
+body{
+   font-family: "Kumbh Sans", sans-serif;
+   font-weight: normal;
+   font-size: 18px;
+   background-color: #fff;
+   color: #000;
+   margin: 0;
+}
